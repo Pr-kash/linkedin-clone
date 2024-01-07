@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Linkedin</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="navbar">
+        <div class="nav-left">
+          <a href="index.html" class="logo"><img src="images/logo.png" /></a>
+          <div class="search-box">
+            <img src="images/search.png" />
+            <input type="search" placeholder="Search" />
+          </div>
+        </div>
+        <div class="nav-mid">
+          <ul>
+            <li>
+              <a href="#" class="active-link"
+                ><img src="images/home.png" /><span>Home</span></a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img src="images/network.png" /><span>My Network</span></a
+              >
+            </li>
+            <li>
+              <a href="#"><img src="images/jobs.png" /><span>Jobs</span></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="images/message.png" /><span>Messaging</span></a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img src="images/notification.png" /><span
+                  >Notifications</span
+                ></a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="nav-right">
+          <div class="online">
+            <img
+              src="images/user-1.png"
+              class="nav-profile-img"
+              onclick="toggleMenu()"
+            />
+          </div>
+        </div>
+        <!-- ---------------------profile drop down-------------- -->
+
+        <div class="profile-menu-wrap" id="profileMenu">
+          <div class="profile-menu">
+            <div class="user-info">
+              <img src="images/user-1.png" />
+              <div>
+                <h3>Danny Colman</h3>
+                <a href="#">See your proflie</a>
+              </div>
+            </div>
+            <hr />
+            <a href="#" class="profile-menu-link">
+              <img src="images/feedback.png" />
+              <p>Give Feedback</p>
+              <span>></span>
+            </a>
+            <a href="#" class="profile-menu-link">
+              <img src="images/setting.png" />
+              <p>Settings</p>
+              <span>></span>
+            </a>
+
+            <a href="#" class="profile-menu-link">
+              <img src="images/help.png" />
+              <p>Help & support</p>
+              <span>></span>
+            </a>
+            <a href="#" class="profile-menu-link">
+              <img src="images/display.png" />
+              <p>Display & Accessibility</p>
+              <span>></span>
+            </a>
+            <a href="#" class="profile-menu-link">
+              <img src="images/logout.png" />
+              <p>Log Out</p>
+              <span>></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- --------------------------------Navbar End--------------------- -->
+
+    <div class="container">
+      <!-- ------------------left------------ -->
+      <div class="left-sidebar">
+        <div class="sidebar-profile-box">
+          <img src="images/cover-pic.png" width="100%" />
+          <div class="sidebar-profile-info">
+            <img src="images/user-1.png" />
+            <h1>Danny Colman</h1>
+            <h3>Web Developer</h3>
+            <ul>
+              <li>Your Profile Views <span>60</span></li>
+              <li>Your Post Views <span>809</span></li>
+              <li>Your Connections <span>41</span></li>
+            </ul>
+          </div>
+          <div class="sidebar-profile-link">
+            <a href="#"><img src="images/items.png" />My items</a>
+            <a href="#"><img src="images/premium.png" />Try Premium</a>
+          </div>
+        </div>
+
+        <div class="sidebar-activity">
+          <h3>Recent</h3>
+          <a href="#"><img src="/images/recent.png" />Web Development</a>
+          <a href="#"><img src="/images/recent.png" />User Interface</a>
+          <a href="#"><img src="/images/recent.png" />Online learning</a>
+          <a href="#"><img src="/images/recent.png" />Learn online</a>
+          <a href="#"><img src="/images/recent.png" />Code better</a>
+          <a href="#"><img src="/images/recent.png" />Group learning</a>
+          <h3>Groups</h3>
+          <a href="#"><img src="images/group.png" />Web Design made simple</a>
+          <a href="#"><img src="images/group.png" />React Developers</a>
+          <a href="#"><img src="images/group.png" />JavaScript Memes</a>
+          <a href="#"><img src="images/group.png" />Coding Hacks</a>
+          <h3>Hastags</h3>
+          <a href="#"><img src="images/hashtag.png" />webdevelopment</a>
+          <a href="#"><img src="images/hashtag.png" />UI/UX</a>
+          <a href="#"><img src="images/hashtag.png" />dailycodechallange</a>
+          <div class="discover-more">
+            <a href="#">Discover more</a>
+          </div>
+        </div>
+      </div>
+      <!-- ------------------main------------------- -->
+      <div class="main-content">
+        <div class="create-post">
+          <div class="create-post-input">
+            <img src="/images/user-1.png" />
+            <textarea rows="2" placeholder="Write a post"></textarea>
+          </div>
+          <div class="create-post-list">
+            <li><img src="images/photo.png" />Photo</li>
+            <li><img src="images/video.png" />Video</li>
+            <li><img src="images/event.png" />Event</li>
+            <li>Post</li>
+          </div>
+        </div>
+        <div class="sort-by">
+          <hr />
+          <p>
+            Sort by: <span>top <img src="images/down-arrow.png" /></span>
+          </p>
+        </div>
+
+        <div class="post">
+          <div class="post-author">
+            <img src="images/user-3.png" />
+            <div>
+              <h1>Kevin Eleven</h1>
+              <small>Founder and CEO at X Corp. | Investor</small>
+              <small>2 hours ago</small>
+            </div>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+            deleniti omnis facilis vitae inventore quae fugit voluptas ipsam
+            dolores ab suscipit, maxime
+          </p>
+          <img src="images/post-image-1.png" width="100%" />
+          <div class="post-stats">
+            <div>
+              <img src="images/thumbsup.png" />
+              <img src="images/love.png" />
+              <img src="images/clap.png" />
+              <span class="liked-users">Akshay and 69 others</span>
+            </div>
+            <div>
+              <span>32 comments &middot; 40 shares</span>
+            </div>
+          </div>
+          <div class="post-activity">
+            <div>
+              <img src="images/user-1.png" class="post-activity-user-icon" />
+              <img
+                src="images/down-arrow.png"
+                class="post-activity-arrow-icon"
+              />
+            </div>
+            <div class="post-activity-link">
+              <img src="images/like.png" />
+              <span>Like</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="images/comment.png" />
+              <span>Comment</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="images/share.png" />
+              <span>Share</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="images/send.png" />
+              <span>Send</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="post">
+          <div class="post-author">
+            <img src="images/user-4.png" />
+            <div>
+              <h1>Alexandra</h1>
+              <small>SVP at home | Investor</small>
+              <small>4 hours ago</small>
+            </div>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+            deleniti omnis facilis vitae inventore quae fugit voluptas ipsam
+            dolores ab suscipit, maxime
+          </p>
+          <img src="images/post-image-2.png" width="100%" />
+          <div class="post-stats">
+            <div>
+              <img src="images/thumbsup.png" />
+              <img src="images/love.png" />
+              <img src="images/clap.png" />
+              <span class="liked-users">Shweta and 78 others</span>
+            </div>
+            <div>
+              <span>42 comments &middot; 19 shares</span>
+            </div>
+          </div>
+          <div class="post-activity">
+            <div>
+              <img src="images/user-1.png" class="post-activity-user-icon" />
+              <img
+                src="images/down-arrow.png"
+                class="post-activity-arrow-icon"
+              />
+            </div>
+            <div class="post-activity-link">
+              <img src="images/like.png" />
+              <span>Like</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="images/comment.png" />
+              <span>Comment</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="images/share.png" />
+              <span>Share</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="images/send.png" />
+              <span>Send</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="post">
+          <div class="post-author">
+            <img src="images/user-4.png" />
+            <div>
+              <h1>George</h1>
+              <small>SDE at Microsoft | Tech-enthusiat</small>
+              <small>1 hours ago</small>
+            </div>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+            deleniti omnis facilis vitae inventore quae fugit voluptas ipsam
+            dolores ab suscipit, maxime
+          </p>
+          <img src="images/post-image-3.png" width="100%" />
+          <div class="post-stats">
+            <div>
+              <img src="images/thumbsup.png" />
+              <img src="images/love.png" />
+              <img src="images/clap.png" />
+              <span class="liked-users">Akshay and 69 others</span>
+            </div>
+            <div>
+              <span>32 comments &middot; 40 shares</span>
+            </div>
+          </div>
+          <div class="post-activity">
+            <div>
+              <img src="images/user-1.png" class="post-activity-user-icon" />
+              <img
+                src="images/down-arrow.png"
+                class="post-activity-arrow-icon"
+              />
+            </div>
+            <div class="post-activity-link">
+              <img src="images/like.png" />
+              <span>Like</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="images/comment.png" />
+              <span>Comment</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="images/share.png" />
+              <span>Share</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="images/send.png" />
+              <span>Send</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="post">
+          <div class="post-author">
+            <img src="images/user-3.png" />
+            <div>
+              <h1>Kevin Eleven</h1>
+              <small>Founder and CEO at X Corp. | Investor</small>
+              <small>2 hours ago</small>
+            </div>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+            deleniti omnis facilis vitae inventore quae fugit voluptas ipsam
+            dolores ab suscipit, maxime
+          </p>
+          <img src="images/post-image-4.png" width="100%" />
+          <div class="post-stats">
+            <div>
+              <img src="images/thumbsup.png" />
+              <img src="images/love.png" />
+              <img src="images/clap.png" />
+              <span class="liked-users">Akshay and 69 others</span>
+            </div>
+            <div>
+              <span>32 comments &middot; 40 shares</span>
+            </div>
+          </div>
+          <div class="post-activity">
+            <div>
+              <img src="images/user-1.png" class="post-activity-user-icon" />
+              <img
+                src="images/down-arrow.png"
+                class="post-activity-arrow-icon"
+              />
+            </div>
+            <div class="post-activity-link">
+              <img src="images/like.png" />
+              <span>Like</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="images/comment.png" />
+              <span>Comment</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="images/share.png" />
+              <span>Share</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="images/send.png" />
+              <span>Send</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ------------------------right--------------->
+
+      <div class="right-sidebar">
+        <div class="sidebar-news">
+          <img src="images/more.png" class="info-icon" />
+          <h3>Trending News</h3>
+          <a href="#">AI on the boom</a>
+          <span>1d ago &middot; 10,467 readers</span>
+
+          <a href="#">Side effects of short form contents</a>
+          <span>12h ago &middot; 34,013 readers</span>
+
+          <a href="#">Kya hai sachin me...</a>
+          <span>69d ago &middot; 69 readers</span>
+
+          <a href="#">No visa for reel influencers</a>
+          <span>45min ago &middot; 0 readers</span>
+
+          <a href="#">The end of twitter(previously X)</a>
+          <span>4d ago &middot; 1234 readers</span>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+        <div class="sidebar-ad">
+          <small>Ad &middot;&middot;&middot;</small>
+          <p>Buy my course. I am Influenzer 🤓</p>
+          <div>
+            <img src="images/user-1.png" />
+            <img src="images/mi-logo.png" />
+          </div>
+          <b>I work in Google, buy my course now 😤</b>
+          <a href="#" class="ad-link">Learn More</a>
+        </div>
+        <div class="sidebar-useful-links">
+          <a href="#">About</a>
+          <a href="#">Accessibility</a>
+          <a href="#">Help Center</a>
+          <a href="#">Privacy & Terms</a>
+          <a href="#">Ad choices</a>
+          <a href="#">Get the LinkedIn app</a>
+          <a href="#">More</a>
+          <div class="copyright">
+            <img src="images/logo.png" />
+            <p>LinkedIn Corp. &#169; 2023</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"
+      integrity="sha512-OzC82YiH3UmMMs6Ydd9f2i7mS+UFL5f977iIoJ6oy07AJT+ePds9QOEtqXztSH29Nzua59fYS36knmMcv79GOg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"
+      integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
